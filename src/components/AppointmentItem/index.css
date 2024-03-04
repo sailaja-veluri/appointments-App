@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid #7e858e;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 0px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.title-stared-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.title {
+  color: #171f46;
+  font-size: 15px;
+}
+.star-button {
+  background-color: white;
+  border: white;
+  cursor: pointer;
+}
+.star-image {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.date-details {
+  color: #7e858e;
+}
